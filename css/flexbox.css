@@ -18,7 +18,32 @@
     display: flex;
     width: 23%;
 }
-/*Mapa de curos*/
+
+/* Video Section */
+
+.videoSobre .container{
+    display: flex;
+    gap: 10px;
+}
+
+.videoSobre-video{
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.videoSobre-sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 2;
+    
+}
+
+
+/*Mapa de cursos*/
 
 .rodapePrincipal-navMap-list {
     height: 250px;
@@ -87,6 +112,12 @@
         flex-wrap: nowrap;
     }
 
+    /* Video Section */
+    .videoSobre .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
     /* Footer */
 
     .rodapePrincipal-patrocinadores .container {
@@ -104,5 +135,9 @@
 
     .rodapePrincipal-contatoForm-fieldset {
         justify-content: center;
+    }
+
+    .headerPrincipal-nav-link-app{
+        order: -1;
     }
 }
