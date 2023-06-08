@@ -48,3 +48,18 @@
 .rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
+
+
+
+/* Responsive */
+
+/* Navegation bar */
+.headerPrincipal .container{
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+}
+
+.headerPrincipal-nav{
+    flex-direction: column;
+}
