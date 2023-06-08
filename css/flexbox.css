@@ -7,3 +7,41 @@
 .headerPrincipal-nav{
     display: flex;
 }
+
+
+/*Nuestros cursos*/
+.contenidoPrincipal-cursos{
+    display: flex;
+}
+
+
+/*Mapa de curos*/
+
+.rodapePrincipal-navMap-list {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*Footer*/
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
